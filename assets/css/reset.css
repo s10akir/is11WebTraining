@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/*
+	reset.css
+*/
+
+/* === Reset === */
+
+body, h1, h2, h3, h4, h5, h6, p, address, ul, ol, li, dl, dt, dd, table, caption, th, td, img, form {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+}
+
+/* ImageClear */
+img {
+	vertical-align: bottom;
+}
+
+/* HrDisplay */
+hr {
+	display: none;
+}
+
+/* FontStyle */
+address,caption,em,strong,th {
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+/* === Clearfix === */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+.clearfix {
+	*zoom: 1;
+}
