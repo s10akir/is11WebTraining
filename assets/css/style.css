@@ -1,0 +1,22 @@
+@import "reset.css";
+
+@font-face {
+    font-family: 'Noto Sans CJK JP';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../font/NotoSansCJKjp-Regular.otf") format("opentype");
+}
+
+body {
+    font-family: 'Noto Sans CJK JP';
+    font-size: 18pt;
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+h1 + p {
+    padding-top: 20px;
+}
