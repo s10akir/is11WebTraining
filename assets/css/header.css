@@ -19,8 +19,8 @@ nav ul, nav li, nav h1{
 nav a:active, nav a:hover, nav a:link, nav a:visited {
     color: black;
     font-size: 20pt;
-    font-weight: bold;
     text-decoration: none;
+    margin: 10px;
 }
 
 nav img {
