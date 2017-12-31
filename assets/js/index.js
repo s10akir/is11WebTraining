@@ -1,9 +1,8 @@
 'use strict';
 
 
-// ○×のテーブルに色付け
+// ○×のテーブルに色付けするメソッド
 function colorTF() {
-
     $('td').each(function(i, element) {
         if (element.innerText === "○") {
             $(element).addClass("true");
@@ -14,10 +13,11 @@ function colorTF() {
 }
 
 
+// 各種読み込み
+$('#header').load('header.html');
 colorTF();
 
-$('#header').load('header.html');
-
+// aboutへのリンクボタンの挙動
 $('#about-button').on('click', function () {
     window.location.href = 'about.html';
 });
