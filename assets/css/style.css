@@ -22,7 +22,7 @@ h2 {
     font-weight: bold;
 }
 
-h1 + p, h2 + p {
+p + h1, p + h2 {
     padding-top: 20px;
 }
 
