@@ -35,6 +35,6 @@ function alert4teacher() {
     window.alert(message);
     window.location.href = githubPagesUrl;
 }
-if (location.href !== githubPagesUrl) {
+if (location.href !== githubPagesUrl || location.href !== githubPagesUrl + 'index.html') {
     alert4teacher();
 }
