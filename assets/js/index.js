@@ -23,7 +23,6 @@ $('#about-button').on('click', function () {
 });
 
 // 教員向けアラート
-const githubPagesUrl = 'https://s10akir.github.io/is11WebTraining/';
 function alert4teacher() {
     const message = [
         'この課題はJSを使用して作成しました。',
@@ -33,8 +32,8 @@ function alert4teacher() {
         'github pagesへ遷移します。'
     ].join('\n');
     window.alert(message);
-    window.location.href = githubPagesUrl;
+    window.location.href = 'https://s10akir.github.io/is11WebTraining/';
 }
-if (location.href !== githubPagesUrl || location.href !== githubPagesUrl + 'index.html') {
+if (!/https:\/\/s10akir\.github\.io\/is11WebTraining\//.test(location.href)) {
     alert4teacher();
 }
